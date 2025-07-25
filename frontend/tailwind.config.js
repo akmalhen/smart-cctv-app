@@ -6,14 +6,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'primary': '#20445b',      // Biru tua dari desain
-        'light-gray': '#E9E9E9',    // Warna latar abu-abu muda (sedikit disesuaikan dari #d9d9d9 agar lebih cocok)
-        'dark-gray': '#6b7280',    // Abu-abu untuk teks deskripsi
+       colors: {
+        'primary': '#20445b',
+        'primary-focus': '#305f7d',
+        'base-100': '#f1f1f1',
+        'dark-gray': '#6b7280',
+        // Tambahkan warna status baru
+        'status-red': '#cc0000',
+        'status-yellow': '#cca300',
+        'status-green': '#457a00',
+        'card-red': '#ff9999',
+        'card-yellow': '#ffeb99',
+        'card-green': '#d9f4cd',
       },
       fontFamily: {
-        // 'sans' adalah font default, kita ganti dengan font lain jika perlu
-        // Kita buat font kustom bernama 'alice'
         'alice': ['Alice', 'serif'],
       },
     },
